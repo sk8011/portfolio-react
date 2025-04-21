@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { Link } from 'react-router-dom';
 
 export const Projects = () => {
   return (
