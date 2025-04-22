@@ -14,21 +14,20 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-black/50 hover:-translate-y-1 hover:border-green-700/30 hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)] transition">
-              <h3 className="text-xl font-bold mb-2 text-gray-500"> Cloud Platform</h3>
-              <p className="text-gray-500 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+            <div className="p-6 rounded-xl border border-black/50 hover:-translate-y-1 hover:border-green-700/30 hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2 text-gray-500"> Music Genre Classification</h3>
+              <p className="text-gray-700 mb-4">
+                CNN-based system to classify songs into genres using spectrograms.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["Tensorflow", "Librosa", "Seaborn", "Streamlit"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-green-500 py-1 px-3 
                       rounded-full text-sm
                       transition
                       hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)]
+                      hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
                     "
                   >
                     {tech}
@@ -36,10 +35,18 @@ export const Projects = () => {
                 ))}
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <a
-                  href="#"
-                  className="text-green-400 hover:text-blue-300 transition-colors my-4"
+                  href="https://musicgenreclassification.streamlit.app/"
+                  target="_blank"
+                  className="mr-4 text-green-500 hover:text-green-700 hover:font-bold py-1 px-3 rounded-lg border-2 border-green-500 hover:bg-green-100 transition-all duration-200"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/sk8011/Music_genre_classification-DL"
+                  target="_blank"
+                  className="text-green-400 hover:font-bold transition-colors my-4 mr-4"
                 >
                   View Project →
                 </a>
@@ -49,17 +56,16 @@ export const Projects = () => {
               className="
               glass p-6 rounded-xl border border-black/50 
               hover:-translate-y-1 hover:border-green-700/30
-              hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)]
+              hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2 text-gray-500">AI Analytics Dashboard</h3>
-              <p className="text-gray-500 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+              <h3 className="text-xl font-bold mb-2 text-gray-500">Dog Vision</h3>
+              <p className="text-gray-700 mb-4">
+                A computer vision project for dog breed detection trained on a diverse image dataset of 120 dog breeds.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["TensorFlow", "Seaborn", "Transfer Learning", "Keras"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -67,20 +73,28 @@ export const Projects = () => {
                       rounded-full text-sm
                       transition
                       hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)]
+                      hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
                     "
                   >
                     {tech}
                   </span>
                 ))}
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <a
-                  href="#"
-                  className="text-green-400 hover:text-blue-300 transition-colors my-4"
+                  href="https://github.com/sk8011/dog-vision"
+                  target="_blank"
+                  className="text-green-400 hover:font-bold transition-colors my-4 mr-4"
                 >
                   View Project →
                 </a>
+                {/* <a
+                  href="https://musicgenreclassification.streamlit.app/"
+                  target="_blank"
+                  className="mr-4 text-green-500 hover:text-green-700 hover:font-bold py-1 px-3 rounded-lg border-2 border-green-500 hover:bg-green-100 transition-all duration-200"
+                >
+                  Live Demo
+                </a> */}
               </div>
             </div>
 
@@ -88,17 +102,16 @@ export const Projects = () => {
               className="
               glass p-6 rounded-xl border border-black/50 
               hover:-translate-y-1 hover:border-green-700/30
-              hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)]
+              hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2 text-gray-500">E-Commerce Web App</h3>
-              <p className="text-gray-500 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+              <h3 className="text-xl font-bold mb-2 text-gray-500">AI-based Cloud Resource Scaling System</h3>
+              <p className="text-gray-700 mb-4">
+                Predicts future CPU usage for cloud servers by sliding window approach and enables dynamic horizontal scaling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["PyTorch", "Docker", "Kubernetes"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -107,7 +120,7 @@ export const Projects = () => {
                       rounded-full text-sm
                       transition
                       hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)]
+                      hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
                     "
                     >
                       {tech}
@@ -115,13 +128,21 @@ export const Projects = () => {
                   )
                 )}
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <a
-                  href="#"
-                  className="text-green-400 hover:text-blue-300 transition-colors my-4"
+                  href="https://github.com/sk8011/AIBased_CloudResource_ScalingSystem"
+                  target="_blank"
+                  className="text-green-400 hover:font-bold transition-colors my-4 mr-4"
                 >
                   View Project →
                 </a>
+                {/* <a
+                  href="https://musicgenreclassification.streamlit.app/"
+                  target="_blank"
+                  className="mr-4 text-green-500 hover:text-green-700 hover:font-bold py-1 px-3 rounded-lg border-2 border-green-500 hover:bg-green-100 transition-all duration-200"
+                >
+                  Live Demo
+                </a> */}
               </div>
             </div>
 
@@ -129,17 +150,16 @@ export const Projects = () => {
               className="
               glass p-6 rounded-xl border border-black/50 
               hover:-translate-y-1 hover:border-green-700/30
-              hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)]
+              hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2 text-gray-500">Real-Time Chat App</h3>
-              <p className="text-gray-500 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+              <h3 className="text-xl font-bold mb-2 text-gray-500">My Portfolio Website</h3>
+              <p className="text-gray-700 mb-4">
+                Website for showcasing all my projects and skills that also allows people to send me messages.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["React", "Vite", "Tailwindcss", "EmailJS"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -147,17 +167,24 @@ export const Projects = () => {
                       rounded-full text-sm
                       transition
                       hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[2px_2px_7px_rgba(0,255,0,0.8)]
+                      hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
                     "
                   >
                     {tech}
                   </span>
                 ))}
               </div>
-              <div className="flex justify-between items-center ">
+              <div className="flex items-center ">
+                <Link
+                  to="/"
+                  className="mr-4 text-green-500 hover:text-green-700 hover:font-bold py-1 px-3 rounded-lg border-2 border-green-500 hover:bg-green-100 transition-all duration-200"
+                >
+                  Live Demo
+                </Link>
                 <a
-                  href="#"
-                  className="text-green-400 hover:text-blue-300 transition-colors my-4"
+                  href="https://github.com/sk8011/portfolio-react"
+                  target="_blank"
+                  className="text-green-400 hover:font-bold transition-colors my-4 mr-4"
                 >
                   View Project →
                 </a>

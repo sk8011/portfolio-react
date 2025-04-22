@@ -13,7 +13,7 @@ export const Navbar=({menuOpen,setMenuOpen})=>{
             <div className="flex justify-between items-center h-16">
                 <Link to="/" className="font-mono text-xl font-bold text-white">
                     {/* <img src="src/assets/react.svg" /> */}
-                    Saurav<span className="text-green-500">-007</span>
+                    Saurav<span className="text-green-500">-Kumar</span>
                 </Link>
 
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={()=>{setMenuOpen((prev)=>!prev)}}>
