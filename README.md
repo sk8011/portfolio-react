@@ -1,12 +1,79 @@
-# React + Vite
+# 💼 Portfolio - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with **React.js** and **Tailwind CSS**. This project showcases my skills, projects, and contact information in a clean and interactive layout. It’s designed for recruiters, collaborators, and anyone interested in what I do!
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Portfolio](https://sk8011.github.io/portfolio-react)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Component-based architecture
+- **Tailwind CSS** – Utility-first styling
+- **Framer Motion** – Smooth animations
+- **GitHub Pages** – Deployed for public access
+
+## ✨ Features
+
+- 🚀 Fully responsive on mobile, tablet, and desktop
+- 🖼️ Project cards with hover effects and links to GitHub/live demo
+- 🧠 Skills section highlighting tools and technologies
+- 📬 Contact section with email integration
+- ⚡ Clean animations and transitions
+
+## 📁 Project Structure
+
+```
+portfolio-react/
+├── public/
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── index.js
+├── tailwind.config.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+```bash
+git clone https://github.com/sk8011/portfolio-react.git
+cd portfolio-react
+npm install
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+*(Deployment is already configured using `gh-pages` branch)*
+
+## 📬 Contact
+
+Feel free to reach out:
+
+- GitHub: [@sk8011](https://github.com/sk8011)
+- Portfolio: [sk8011.github.io/portfolio-react](https://sk8011.github.io/portfolio-react)
+
+---
+
+🧠 *Fork it. Clone it. Customize it. Make it yours.*
