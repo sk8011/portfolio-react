@@ -66,7 +66,7 @@ export const About=()=>{
                             <strong>Relevant Coursework :</strong> Data Structures, Cloud Computing, Web development, DBMS using MySQL, Computer Networks, Operating System, Compiler, Machine Learning, Artificial Intelligence and Automata. 
                         </li>
                         <li>
-                            <strong>CGPA :</strong> 8.463 (upto 5th sem)
+                            <strong>CGPA :</strong> 8.62
                         </li>
                     </ul>
                 </div>

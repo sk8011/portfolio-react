@@ -190,6 +190,52 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+
+
+            <div
+              className="
+              glass p-6 rounded-xl border border-black/50 
+              hover:-translate-y-1 hover:border-green-700/30
+              hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2 text-gray-500">NoteGPT</h3>
+              <p className="text-gray-700 mb-4">
+                It is a full-stack markdown-based note-taking app enhanced with an AI assistant. Users can create, edit, and organise notes, embed images, and get contextual answers from an integrated chatbot.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "Vite", "Typescript", "Node", "Express", "Groq API"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-green-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0px_2px_7px_rgba(0,255,0,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex items-center ">
+                <a
+                  href="https://smartnotes-buhw.onrender.com"
+                  className="mr-4 text-green-500 hover:text-green-700 hover:font-bold py-1 px-3 rounded-lg border-2 border-green-500 hover:bg-green-100 transition-all duration-200"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/sk8011/notetake-ai"
+                  target="_blank"
+                  className="text-green-400 hover:font-bold transition-colors my-4 mr-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </RevealOnScroll>
